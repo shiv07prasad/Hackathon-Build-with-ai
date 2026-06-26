@@ -2,6 +2,24 @@
 .env
 .env.*
 
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Backend markdown docs
 bwa-backend/BACKEND_PLAN.md
 bwa-backend/DEPLOYMENT.md
