@@ -110,6 +110,14 @@ function App() {
               <small>PDF proposals, invoices, or SaaS quotes</small>
             </label>
 
+            <a
+              className="sample-download"
+              download
+              href="/acme_analytics_vendor_proposal.pdf"
+            >
+              ✨ Download Sample PDF
+            </a>
+
             <label>
               Requester
               <input value={requester} onChange={(event) => setRequester(event.target.value)} />
