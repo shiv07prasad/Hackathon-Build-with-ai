@@ -1,0 +1,14 @@
+{
+  "name": "vendor-intake-agent",
+  "description": "Extracts vendor proposal facts for procurement intake.",
+  "capabilities": ["vendor_intake", "proposal_extraction", "procurement"],
+  "tags": ["procurement", "intake", "vendor"],
+  "examples": ["extract vendor and contract value", "read proposal intake details"],
+  "input_mode": "json",
+  "output_mode": "json",
+  "agent_protocol_version": "a2a-v1",
+  "endpoints": {
+    "/intake/analyze": "Extract vendor, service, amount, department, billing, term, renewal date, and missing fields.",
+    "/health": "Health check endpoint."
+  }
+}

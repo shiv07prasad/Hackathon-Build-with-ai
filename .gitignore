@@ -1,0 +1,8 @@
+# Environment variables
+.env
+.env.*
+
+# Backend markdown docs
+bwa-backend/BACKEND_PLAN.md
+bwa-backend/DEPLOYMENT.md
+bwa-backend/GOOGLE_CLOUD_SETUP.md

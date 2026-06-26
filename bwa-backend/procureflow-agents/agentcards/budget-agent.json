@@ -1,0 +1,14 @@
+{
+  "name": "budget-agent",
+  "description": "Checks vendor request amount against department budgets and finance thresholds.",
+  "capabilities": ["budget_check", "finance_threshold", "procurement_policy"],
+  "tags": ["procurement", "finance", "budget"],
+  "examples": ["check sales budget for software purchase", "decide if finance approval is required"],
+  "input_mode": "json",
+  "output_mode": "json",
+  "agent_protocol_version": "a2a-v1",
+  "endpoints": {
+    "/budget/analyze": "Check budget fit and finance approval requirement.",
+    "/health": "Health check endpoint."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "security-review-agent",
+  "description": "Checks vendor security, privacy, and compliance evidence.",
+  "capabilities": ["security_review", "soc2_check", "gdpr_check", "dpa_check"],
+  "tags": ["procurement", "security", "compliance"],
+  "examples": ["check whether SOC2 is missing", "assess customer data risk"],
+  "input_mode": "json",
+  "output_mode": "json",
+  "agent_protocol_version": "a2a-v1",
+  "endpoints": {
+    "/security/analyze": "Assess vendor security and compliance risk.",
+    "/health": "Health check endpoint."
+  }
+}

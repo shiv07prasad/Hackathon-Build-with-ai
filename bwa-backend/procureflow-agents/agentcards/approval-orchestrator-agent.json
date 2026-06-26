@@ -1,0 +1,14 @@
+{
+  "name": "approval-orchestrator-agent",
+  "description": "Combines all procurement agent outputs into a final approval workflow.",
+  "capabilities": ["approval_routing", "workflow_generation", "risk_summary"],
+  "tags": ["procurement", "orchestration", "approval"],
+  "examples": ["create legal security finance approval workflow", "summarize procurement decision"],
+  "input_mode": "json",
+  "output_mode": "json",
+  "agent_protocol_version": "a2a-v1",
+  "endpoints": {
+    "/approval/analyze": "Create final decision, risk list, approvers, workflow, and summary.",
+    "/health": "Health check endpoint."
+  }
+}

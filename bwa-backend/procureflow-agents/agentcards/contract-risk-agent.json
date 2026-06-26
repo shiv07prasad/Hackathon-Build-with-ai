@@ -1,0 +1,14 @@
+{
+  "name": "contract-risk-agent",
+  "description": "Reviews vendor contract terms for procurement and legal risk.",
+  "capabilities": ["contract_review", "risk_detection", "negotiation_recommendations"],
+  "tags": ["procurement", "legal", "contract"],
+  "examples": ["detect auto-renewal risk", "review liability cap and cancellation terms"],
+  "input_mode": "json",
+  "output_mode": "json",
+  "agent_protocol_version": "a2a-v1",
+  "endpoints": {
+    "/contract/analyze": "Flag contract risks and suggested negotiation points.",
+    "/health": "Health check endpoint."
+  }
+}
